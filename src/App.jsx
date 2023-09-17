@@ -8,8 +8,8 @@ function App() {
       <div className="md:w-1/2">
         <h1 className="text-3xl font-bold">Explore Three Fiber</h1>
       </div>
-      <div className="">
-        <Canvas className="!h-[60vh]"> 
+      <div>
+        <Canvas className="!h-[100vh]"> 
           <Suspense fallback={null}>
             <Three />
           </Suspense>
